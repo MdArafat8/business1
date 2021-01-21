@@ -1,0 +1,207 @@
+.top-footer{
+    
+    background-color: #f0f2f4;
+        
+    padding: 10px 0;
+    }
+    .top-footer ul{
+        
+    display: flex;
+        
+    margin: 0;
+        
+    padding: 0;
+        
+    justify-content: space-between;
+        
+    list-style: none;
+    align-items: center;
+    }
+    .top-footer ul li{
+        
+    }
+    .top-footer ul li i{
+        
+    margin-right: 10px;
+    }
+    .top-footer ul li p{
+        
+    }
+    .top-footer ul li a{
+        color: #1287bf;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #424242;
+        font-weight: 500;
+    }
+.banner{
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+.banner h1{
+
+color: #fff;
+}
+.banner p{
+    
+color: #fff;
+}
+.banner a{
+    
+}
+.banner2{
+    min-height: 80vh;
+}
+.banner .btn-banner{
+    
+}
+
+
+.heading{
+    position: relative;
+}
+.heading p{
+    color: #424242;
+   
+}
+.heading h1{
+    color: #1a1a1a;
+  
+}
+.heading::before{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 41%;
+    width: 0;
+    height: 3px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    right: 41%;
+    width: 0;
+    height: 3px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+}
+.about-us:hover .heading::after{
+
+    
+    width: 50px;
+}
+.about-us:hover .heading::before{
+
+    
+    width: 50px;
+}
+.about-item{
+
+}
+.about-item img{
+    
+}
+.about-item h3{
+    color: #424242;
+}
+.about-item p{
+    color: #424242;
+}
+.approach:hover .heading::after{
+
+    
+    width: 50px;
+}
+.approach:hover .heading::before{
+
+    
+    width: 50px;
+}
+.approach{
+    background-color: #f3f3f3;
+}
+.approach .item-1{
+    background-color: #fff;
+}
+.step{
+
+height: 100px;
+
+width: 100px;
+
+background: red;
+
+text-align: center;
+
+color: #fff;
+
+border-radius: 5px;
+
+position: absolute;
+left: 32%;
+}
+.step h1{
+    
+font-weight: 750;
+    
+padding-top: 10px;
+
+}
+.step p{
+    
+font-weight: 500;
+}
+.relative{
+    position: relative;
+
+}
+.app2{
+ position: relative;
+
+}
+.step2{
+
+    height: 100px;
+    
+    width: 100px;
+    
+    background: red;
+    
+    text-align: center;
+    
+    color: #fff;
+    
+    border-radius: 5px;
+    
+    position: absolute;
+    right: 32%;
+    
+    }
+    .step2 h1{
+        
+    font-weight: 750;
+        
+    padding-top: 10px;
+    }
+    .step2 p{
+        
+    font-weight: 500;
+    }
+    .steptwo{
+        text-align: right;
+    }
+.steptwo h1{
+        
+    }
+    .steptwo p{
+        
+    }
